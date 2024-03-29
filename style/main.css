@@ -53,6 +53,7 @@ body {
 .story_text {
   color: #48555B;
 }
+
 .story_right {
   display: flex;
   align-items: flex-end;
