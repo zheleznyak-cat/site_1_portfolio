@@ -238,6 +238,20 @@ h2.services_title_2:after {
   .story_inner {
     flex-wrap: wrap;
   }
+  .services_button_2 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 700px) {
+  .header_text {
+    padding-bottom: 100px;
+  }
+  .services_card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .services_button_button {
+    margin-bottom: 70px;
+  }
 }
 @media screen and (max-width: 500px) {
   .story_right {
@@ -251,5 +265,15 @@ h2.services_title_2:after {
   }
   .menu_item {
     flex-direction: column;
+  }
+  .header_text {
+    padding-bottom: 60px;
+  }
+  .services_button {
+    flex-wrap: wrap;
+  }
+  
+  .services_card {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
