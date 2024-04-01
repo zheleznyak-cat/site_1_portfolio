@@ -20,6 +20,7 @@ body {
   background-image: url(/img/bg.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   max-width: 1440px;
   height: 768px;
   margin: 0 auto;
@@ -51,6 +52,42 @@ body {
   padding: 0;
   letter-spacing: 4px;
 }
+/* Раздел "Menu" */
+.menu {
+}
+.menu_flex {
+  display: flex;
+  justify-content: space-between;
+}
+.menu_img {
+  margin-top: 24px;
+  padding-bottom: 23px;
+}
+.menu_item {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 20px 0;
+  padding: 0;
+}
+li {
+  padding-right: 39.5px;
+}
+.menu_a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #48555B;
+  letter-spacing: 1.09px;
+}
+li:last-child {
+  padding-right: 0;
+}
+a.menu_a:hover {
+  color: #00A4E5;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
 /* Раздел "Our Story" */
 .story {
   padding: 30px 0;
@@ -58,6 +95,7 @@ body {
 .story_inner {
   display: flex;
   justify-content: center;
+  padding-bottom: 65px;
 }
 .story_left {
   max-width: 406px;
@@ -68,7 +106,8 @@ body {
   text-align: center;
   font-weight: bold;
   font-size: 18px;
-  padding: 50px 0;
+  padding: 10px 0;
+  letter-spacing: 2.31px;
 }
 .story_title_2:after {
   content: '';
@@ -92,6 +131,7 @@ body {
   display: flex;
   align-items: flex-end;
   margin-bottom: 0;
+  padding-right: 0;
 }
 .story_item {
   text-transform: uppercase;
@@ -120,6 +160,72 @@ body {
   margin-right: 0;
   background-size: cover;
 }
+/* Раздел "Servises" */
+.services {
+  
+}
+.services_button {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.services_button_1 {
+  
+}
+.services_title_2 {
+  width: 220px;
+  text-align: left;
+}
+h2.services_title_2:after {
+  margin-left: 0;
+}
+.services_button_2 {
+  margin-top: 22px;
+  display: flex;
+  justify-content: space-between;
+}
+.services_button_text {
+  font-size: 11px;
+  letter-spacing: 0.2px;
+  color: #48555B;
+  max-width: 440px;
+  margin-top: 5px;
+  padding-right: 50px;
+}
+.services_button_button {
+  color: #FFF;
+  background-color: #00A4E5;
+  width: 150px;
+  height: 40px;
+  border: none;
+}
+
+.services_card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 27px;
+  margin-top: 25px;
+}
+.services_card_item {
+  padding-left: 20px;
+  padding-right: 22px;
+}
+.services_button_4 {
+  font-size: 16px;
+  letter-spacing: 0.43px;
+  color: #48555B;
+  line-height: 24px;
+  padding-bottom: -10px;
+}
+.services_button_text_p {
+  font-size: 13px;
+  letter-spacing: 0.19px;
+  line-height: 23px;
+}
+
+
+
+
 @media screen and (max-width: 1440px) {
   .container {
     padding: 0 50px;
@@ -142,5 +248,8 @@ body {
   }
   .story_item:nth-child(3) {
     margin-bottom: 0;
+  }
+  .menu_item {
+    flex-direction: column;
   }
 }
