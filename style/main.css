@@ -160,9 +160,6 @@ a.menu_a:hover {
   background-size: cover;
 }
 /* Раздел "Servises" */
-.services {
-  
-}
 .services_button {
   display: flex;
   justify-content: space-between; 
@@ -218,7 +215,7 @@ button {
   line-height: 23px;
 }
 .get-in-touch {
-  background-image: url(../img/bg1.png);
+  background-image: url(../img/bd1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -238,7 +235,6 @@ button {
   padding-bottom: 38px;
   line-height: 36px;
 }
-
 .newsletter {
   background-color: #171819;
   max-width: 1440px;
@@ -249,7 +245,6 @@ button {
 .newsletter_block {
   display: flex;
   justify-content: space-evenly;
-  /* max-width: 300px; */
   margin: 0 auto;
 }
 .newsletter_text {
@@ -280,8 +275,6 @@ a.newsletter_mail_a {
   color: #48555B;
   text-decoration: none;
 }
-
-
 @media screen and (max-width: 1440px) {
   .container {
     padding: 0 50px;
@@ -298,7 +291,7 @@ a.newsletter_mail_a {
     flex-wrap: wrap;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
   .header_text {
     padding-bottom: 100px;
   }
@@ -307,6 +300,13 @@ a.newsletter_mail_a {
   }
   .services_button_button {
     margin-bottom: 70px;
+  }
+  .newsletter_block {
+    flex-wrap: wrap;
+  }
+  .newsletter_text {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (max-width: 500px) {
@@ -328,8 +328,10 @@ a.newsletter_mail_a {
   .services_button {
     flex-wrap: wrap;
   }
-  
   .services_card {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .newsletter_info {
+    flex-wrap: wrap;
   }
 }
