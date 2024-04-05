@@ -215,7 +215,7 @@ button {
   line-height: 23px;
 }
 .get-in-touch {
-  background-image: url(../img/bd1.png);
+  background-image: url(../img/bg1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -240,7 +240,7 @@ button {
   max-width: 1440px;
   min-height: 100px;
   margin: 0 auto;
-  margin-top: -1px;
+  margin-top: -2px;
 }
 .newsletter_block {
   display: flex;
@@ -275,6 +275,100 @@ a.newsletter_mail_a {
   color: #48555B;
   text-decoration: none;
 }
+/* Раздел "Contact" */
+.contact_div {
+  background-color: #141A20;
+  color: #FFFFFF;
+  display: flex;
+  padding-top: 40px;
+  min-height: 240px;
+  margin-top: -1px;
+  justify-content: space-evenly;
+}
+.contact_1-title {
+  padding-bottom: 20px;
+}
+.contact_p {
+  padding: 0 auto;
+  margin: 0 auto;
+  font-size: 11px;
+  letter-spacing: 1.01px;
+}
+.contact_1-text {
+  margin-top: 10px;
+  line-height: 19px;
+}
+li {
+  list-style-type: none;
+}
+.contact_1 {
+  max-width: 260px;
+  margin-top: 43px;
+  margin-left: -16px;
+}
+.contact_2 {
+  margin-top: 20px;
+  margin-left: -26px;
+}
+.contact_2-li {
+  line-height: 25px;
+}
+.contact_2-li:first-child {
+  font-weight: 300;
+  padding-bottom: 5px;
+}
+.contact_item {
+}
+.contact_3,
+.contact_4 {
+  margin-top: 58px;
+  line-height: 25px;
+}
+.contact_3 {
+  margin-left: -74px;
+}
+.contact_item_3 {
+}
+.contact_4 {
+  margin-left: -90px;
+}
+.contact_item_4 {
+}
+.contact_5 {
+  width: 190px;
+  margin-left: -50px;
+  margin-top: 25px;
+  font-weight: 300;
+}
+.contact_5-li:first-child {
+  padding-bottom: 18px;
+}
+.contact_5-li:nth-child(3),
+.contact_5-li:nth-child(4) {
+  margin-top: 18px;
+}
+.contact_6 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 68px;
+  width: 87px;
+}
+.footer {
+  background-color: #171819;
+  min-height: 60px;
+  color: #FFFFFF;
+  margin-top: -1px;
+}
+.footer_p {
+  margin: 0 auto;
+  padding: 0; 
+  text-align: center;
+  padding-top: 20px;
+  font-size: 11px;
+  letter-spacing: 0.85px;
+}
+
+
 @media screen and (max-width: 1440px) {
   .container {
     padding: 0 50px;
@@ -289,6 +383,19 @@ a.newsletter_mail_a {
   }
   .services_button_2 {
     flex-wrap: wrap;
+  }
+  .newsletter {
+    margin-top: -3px;
+  }
+  .contact_div {
+    flex-wrap: wrap;
+  }
+  .contact_1,
+  .contact_2,
+  .contact_3,
+  .contact_4,
+  .contact_5 {
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 750px) {
